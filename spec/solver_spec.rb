@@ -47,5 +47,11 @@ describe Solver do
         expect(subject.fizzbuzz(15)).to eq 'fizzbuzz'
       end
     end
+
+    context "when the number is not divisible by any 3 or 5" do
+      it "should return the number in string form" do
+        expect(subject.fizzbuzz(7)).to eq '7'
+      end
+    end
   end
 end
