@@ -21,35 +21,35 @@ describe Solver do
     end
   end
 
-  describe "#reverse" do
-    context "When input string" do
-      it "should return a reversed string" do
-        expect(subject.reverse('abcd')).to eql 'dcba'  
+  describe '#reverse' do
+    context 'When input string' do
+      it 'should return a reversed string' do
+        expect(subject.reverse('abcd')).to eql 'dcba'
       end
     end
   end
 
-  describe "#fizzbuzz" do
-    context "when the number is divisible by 3" do
-      it "should return fizz" do
+  describe '#fizzbuzz' do
+    context 'when the number is divisible by 3' do
+      it 'should return fizz' do
         expect(subject.fizzbuzz(3)).to eq 'fizz'
       end
     end
 
-    context "when the number is divisible by 5" do
-      it "should return buzz" do
+    context 'when the number is divisible by 5' do
+      it 'should return buzz' do
         expect(subject.fizzbuzz(5)).to eq 'buzz'
       end
     end
 
-    context "when the number is divisible by both 3 & 5" do
-      it "should return fizzbuzz" do
+    context 'when the number is divisible by both 3 & 5' do
+      it 'should return fizzbuzz' do
         expect(subject.fizzbuzz(15)).to eq 'fizzbuzz'
       end
     end
 
-    context "when the number is not divisible by any 3 or 5" do
-      it "should return the number in string form" do
+    context 'when the number is not divisible by any 3 or 5' do
+      it 'should return the number in string form' do
         expect(subject.fizzbuzz(7)).to eq '7'
       end
     end
