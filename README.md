@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h1><b>School Library</b></h1>
+  <h1><b>TDD</b></h1>
 
 </div>
 
@@ -28,13 +28,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 School Library <a name="about-project"></a>
+# 📖 TDD <a name="about-project"></a>
 <!-- write description for me -->
-**School Library** is app where users can
-- Add new students or teachers.
-- Add new books.
-- Save records of who borrowed a given book and when.
-
+**TTD PROJECT** is app where users can
+In this project we implemented a class with some methods, we did it by doing test-driven development (TDD).
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -68,7 +65,7 @@ In order to run this project you need:
 
 ```
     ruby
-    bundler
+    bundler install
 ```
 
 ### Setup
@@ -76,7 +73,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```bash
-  git clone https://github.com/K0ppai/School_Library.git
+  git clone https://github.com/K0ppai/TDD_Ruby.git
 ```
 
 ### Install
@@ -84,7 +81,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```bash
-  cd School_Library
+  cd TDD_Ruby
   bundle install
 ```
 
@@ -103,6 +100,12 @@ it will install the required gemfile for running the project
 - GitHub: [@K0ppai](https://github.com/K0ppai)
 - Twitter: [@_koppai_](https://twitter.com/_koppai_)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/paingsoe-thu)
+
+  👤 **Manzi Tresor**
+
+- GitHub: [@githubhandle](https://github.com/manzitresor)
+- Twitter: [@githubhandle](https://twitter.com/MANZITresor3)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/manzi-tresor-783b4022a/)
 
 
 
