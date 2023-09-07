@@ -1,17 +1,17 @@
 class Solver
-  def factorial(num)
-    return 'Input should be a positive number!' if num.negative?
-    return 1 if num < 1
+  def factorial(number)
+    return 'Input should be a positive number!' if number.negative?
+    return 1 if number < 1
 
-    num * factorial(num - 1)
+    number * factorial(number - 1)
   end
 
   def reverse(word)
     word.reverse
   end
 
-  def fizzbuzz(num)
-    string = ((num % 3).zero? ? 'fizz' : '') + ((num % 5).zero? ? 'buzz' : '')
-    string.empty? ? num.to_s : string
+  def fizzbuzz(number)
+    string = ((number % 3).zero? ? 'fizz' : '') + ((number % 5).zero? ? 'buzz' : '')
+    string.empty? ? number.to_s : string
   end
 end
