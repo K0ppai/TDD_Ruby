@@ -1,9 +1,8 @@
 class Solver
   def factorial(num)
-    if num.negative? 
-      return "Input should be a positive number!"
-    end
+    return 'Input should be a positive number!' if num.negative?
     return 1 if num < 1
+
     num * factorial(num - 1)
   end
 
@@ -12,7 +11,7 @@ class Solver
   end
 
   def fizzbuzz(num)
-    string = (num % 3 == 0 ? 'fizz' : '') + (num % 5 == 0 ? 'buzz' : '')
+    string = ((num % 3).zero? ? 'fizz' : '') + ((num % 5).zero? ? 'buzz' : '')
     string.empty? ? num.to_s : string
   end
 end
