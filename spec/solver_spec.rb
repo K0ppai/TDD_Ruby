@@ -35,5 +35,11 @@ describe Solver do
         expect(subject.fizzbuzz(3)).to eq 'fizz'
       end
     end
+
+    context "when the number is divisible by 5" do
+      it "should return buzz" do
+        expect(subject.fizzbuzz(5)).to eq 'buzz'
+      end
+    end
   end
 end
