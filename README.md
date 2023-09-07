@@ -65,7 +65,7 @@ In order to run this project you need:
 
 ```
     ruby
-    bundler install
+    bundler 
 ```
 
 ### Setup
