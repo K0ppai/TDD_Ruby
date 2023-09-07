@@ -20,4 +20,12 @@ describe Solver do
       end
     end
   end
+
+  describe "#reverse" do
+    context "When input string" do
+      it "should return a reversed string" do
+        expect(subject.reverse('abcd')).to eql 'dcba'  
+      end
+    end
+  end
 end

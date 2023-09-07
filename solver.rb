@@ -6,4 +6,8 @@ class Solver
     return 1 if num < 1
     num * factorial(num - 1)
   end
+
+  def reverse(word)
+    word.reverse
+  end
 end
