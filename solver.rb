@@ -12,6 +12,7 @@ class Solver
   end
 
   def fizzbuzz(num)
-    (num % 3 == 0 ? 'fizz' : '') + (num % 5 == 0 ? 'buzz' : '')
+    string = (num % 3 == 0 ? 'fizz' : '') + (num % 5 == 0 ? 'buzz' : '')
+    string.empty? ? num.to_s : string
   end
 end
